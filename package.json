@@ -1,0 +1,21 @@
+{
+  "name": "modcat",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node ."
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@types/tmi.js": "^1.8.3",
+    "@types/ws": "^8.5.4",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "reconnecting-websocket": "^4.4.0",
+    "tmi.js": "^1.8.5",
+    "ws": "^8.13.0"
+  }
+}
